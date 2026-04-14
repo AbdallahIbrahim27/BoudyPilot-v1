@@ -3,6 +3,8 @@ from typing import TypedDict, List
 from langchain_core.messages import BaseMessage, HumanMessage, AIMessage, SystemMessage
 from langgraph.graph import StateGraph, START
 from mistralai import Mistral
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
 from tavily import TavilyClient
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
