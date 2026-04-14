@@ -2,7 +2,7 @@ streamlit
 langchain
 langchain-core
 langgraph
-mistralai
+mistralai>=0.1.0
 tavily-python
 pydantic
 typing-extensions
